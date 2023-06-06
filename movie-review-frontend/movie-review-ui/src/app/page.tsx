@@ -1,7 +1,15 @@
-export default function Home() {
+import Home from "./components/home/Home";
+import NavBar from "./components/navbar/NavBar";
+import Review from "./components/review/Review";
+import Trailer from "./components/trailer/Trailer";
+
+export default function app() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <NavBar />
+      <Home />
+      <Trailer />
+      <Review />
+    </div>
   )
 }
