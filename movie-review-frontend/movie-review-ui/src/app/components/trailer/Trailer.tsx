@@ -1,9 +1,16 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 
 const Trailer = () => {
   return (
-    <div className="border-4 border-black m-2">
-      <h1>Trailer</h1>
+    <div className="bg-stone-800 text-white px-2 py-4 m-2">
+      <a className="text-red-700" href="">
+        <div className="text-sm">
+          <FontAwesomeIcon icon={faCirclePlay} className="w-10"/>
+        </div>
+        
+      </a>
     </div>
   );
 };

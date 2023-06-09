@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='border-4 border-black m-2'>
+    <div className="bg-stone-800 text-white px-2 py-4 m-2">
       <h1>Home</h1>
     </div>
   )
