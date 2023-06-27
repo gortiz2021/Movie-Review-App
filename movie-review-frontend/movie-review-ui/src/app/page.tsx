@@ -5,11 +5,11 @@ import Trailer from "./components/trailer/Trailer";
 
 export default function app() {
   return (
-    <div>
+    <div className="py-1">
       <NavBar />
       <Home />
       <Trailer />
       <Review />
     </div>
-  )
+  );
 }

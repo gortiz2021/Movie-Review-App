@@ -4,6 +4,7 @@
 
 @layer base {
   html {
-    @apply bg-black;
+    @apply bg-black p-0 m-0;
+
   }
 }
